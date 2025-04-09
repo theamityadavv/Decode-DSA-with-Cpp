@@ -1,0 +1,12 @@
+//Q1. Print hello world ‘n’ times. Take ‘n’ as input from user
+#include<iostream>
+using namespace std;
+int main(){
+	int num;
+	cout<<"enter the number of times you want to print hello world";
+	cin>>num;
+	for(i=1;i<=num;i++){
+		cout<<"hello world";
+	}
+	return 0;
+}
